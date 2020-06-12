@@ -1,0 +1,19 @@
+{
+  "version": "0.0.01",
+  "name": "hyc-cli",
+  "description": "这是黄永川的第一个脚手架",
+  "bin": {
+    "hyc": "./bin/hyc.js",
+    "hyc-add": "./bin/hyc-add.js",
+    "hyc-delete": "./bin/hyc-delete.js",
+    "hyc-list": "./bin/hyc-list.js",
+    "hyc-init": "./bin/hyc-init.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^7.1.0",
+    "ora": "^3.2.0"
+  }
+}
